@@ -17,7 +17,7 @@ button = ttk.Button(window,text = 'A simple button', command= button_func, textv
 button.pack()
 
 #checkbutton 
-check_var = tk.IntVar(values = 10)
+check_var = tk.IntVar(value = 10)
 check = ttk.Checkbutton(window, text = 'checkbox 1',
                         command= lambda: print(check_var.get()),
                         variable=check_var,

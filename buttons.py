@@ -38,10 +38,10 @@ check2.pack()
 'Basic idea of radio button is only one button is ever really activated'
 
 radio_var = tk.StringVar()
-radio1 = ttk.Radiobutton(window,text = 'Radiobutton 1', value = 'Radio 1', variable= radio_var,command = lambda:print(radio_var.get()))
+radio1 = ttk.Radiobutton(window,text = 'Radiobutton 1', value = 'Radio 1', command = lambda:print(radio_var.get()))
 radio1.pack()
 
-radio2=ttk.Radiobutton(window,text= 'Radiobutton 2',value=2, variable=radio_var)
+radio2=ttk.Radiobutton(window,text= 'Radiobutton 2',value=2,bg='#fff', variable=radio_var)
 radio2.pack()
 
 #run 
